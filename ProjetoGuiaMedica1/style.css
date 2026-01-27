@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.titulo-pagina{
+    color: rgb(0, 0, 171);
+    margin-top: 30px;
+}
+.container{
+    background-color: rgb(91, 91, 163);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-medico{
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 12px;
+} 
+.botao-info{
+    background-color: yellowgreen;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* 
+Página de Marcar Consultas
+
+Especialidades
+    - Otorrinolaringologista
+    - Oftalmologista
+    - Neurologia
+    - Psiquiatria
+    - Nutricionista
+    - Cardiologia
+    - Dermatologia
+    - Neurologia
+    - Pediatria
+
+Emergencia - Setores
+    Pronto Socorro
+    Pediatria - Pronto Socorro
+    Trabalho de Parto
+    - Ligue Já!
+
+*/
