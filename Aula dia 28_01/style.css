@@ -1,3 +1,12 @@
 body{
     background-color: #c6ffec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card, a, button{
+    transition: all 0.4s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border-color: blue;
+    box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
 }
