@@ -70,64 +70,31 @@ body{
 }
 
 
+.lista-contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 .card-contato{
-    background-color: gray;
+    background-color: white;
     padding: 10px;
     margin: 5px;
     width: 300px;
-    height: 200px;
+    height: 300px;
     border: 2px solid black;
     border-radius: 10px;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-
-
-/* 
-Página de Marcar Consultas
-
-Especialidades
-    - Otorrinolaringologista
-    - Oftalmologista
-    - Neurologia
-    - Psiquiatria
-    - Nutricionista
-    - Cardiologia
-    - Dermatologia
-    - Neurologia
-    - Pediatria
-
-Emergencia - Setores
-    Pronto Socorro
-    Pediatria - Pronto Socorro
-    Trabalho de Parto
-    - Ligue Já!
-
-*/
-
-
-
-
-/*
-Você foi contratado por uma clínica médica para desenvolver um Portal de Instruções Rápidas. 
-Como o tempo é precioso em emergências, a página precisa ser limpa, organizada e fácil de ler. 
-Seu objetivo hoje é criar a estrutura e o estilo dessa página utilizando arquivos separados para o conteúdo 
-(HTML) e para o design (CSS).  
-
-Requisitos Técnicos:
-
-    HTML: Use <div> para criar "cartões" (cards) para cada tipo de emergência (Ex: Desmaio, Engasgo, Insolação).
-    Botões: Cada cartão deve ter um <button> para "Pedir Ajuda".
-
-    CSS:
-
-    width (largura da caixa).
-
-    padding (espaço interno).
-
-    margin (espaço entre os cartões).
-
-    border e border-radius (bordas e cantos arredondados).
-
-
-*/
+.link{
+    color: black;
+    background-color: rgba(255, 0, 0, 0.61);
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+    padding: 3px;
+}
