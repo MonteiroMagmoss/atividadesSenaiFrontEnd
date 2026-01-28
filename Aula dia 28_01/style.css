@@ -2,6 +2,10 @@ body{
     background-color: #c6ffec;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.titulo-pagina{
+    color: blueviolet;
+    margin-top: 30px;
+}
 .card, a, button{
     transition: all 0.4s ease-in-out;
 }
@@ -9,4 +13,10 @@ body{
     transform: translateY(-10px);
     border-color: blue;
     box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
+}
+.botao-info{
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
