@@ -1,0 +1,133 @@
+.title-pagina{
+    text-shadow: green 2px 2px 4px;
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+.sub-title{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+}
+body{
+    background-color: rgb(183, 255, 231);
+}
+.header{
+    text-shadow: 1px 1px 2px white;
+    background-color: #7abaff;
+    height: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    border-width: 10px;
+    border-top: 5px solid #5aaaff;
+    border-left: 5px solid #5aaaff;
+    border-right: 5px solid #9dceff;
+    border-bottom: 5px solid #9dceff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topicos-emergencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card-emergencia{
+    background-color: rgb(172, 255, 176);
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.imagem-emergencia{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.botao-info{
+    background-color: rgb(202, 88, 88);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-contato{
+    background-color: gray;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* 
+Página de Marcar Consultas
+
+Especialidades
+    - Otorrinolaringologista
+    - Oftalmologista
+    - Neurologia
+    - Psiquiatria
+    - Nutricionista
+    - Cardiologia
+    - Dermatologia
+    - Neurologia
+    - Pediatria
+
+Emergencia - Setores
+    Pronto Socorro
+    Pediatria - Pronto Socorro
+    Trabalho de Parto
+    - Ligue Já!
+
+*/
+
+
+
+
+/*
+Você foi contratado por uma clínica médica para desenvolver um Portal de Instruções Rápidas. 
+Como o tempo é precioso em emergências, a página precisa ser limpa, organizada e fácil de ler. 
+Seu objetivo hoje é criar a estrutura e o estilo dessa página utilizando arquivos separados para o conteúdo 
+(HTML) e para o design (CSS).  
+
+Requisitos Técnicos:
+
+    HTML: Use <div> para criar "cartões" (cards) para cada tipo de emergência (Ex: Desmaio, Engasgo, Insolação).
+    Botões: Cada cartão deve ter um <button> para "Pedir Ajuda".
+
+    CSS:
+
+    width (largura da caixa).
+
+    padding (espaço interno).
+
+    margin (espaço entre os cartões).
+
+    border e border-radius (bordas e cantos arredondados).
+
+
+*/
