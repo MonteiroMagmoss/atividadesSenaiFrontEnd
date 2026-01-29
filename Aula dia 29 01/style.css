@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.container{
+    padding: 20px;
+    border: solid red 5px;
+}
+.titulo-pagina{
+    color: blueviolet;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: 10px;
+    justify-self: center;
+}
+.logo-img{
+    width: 150px;
+    height: 25px;
+}
+
+.menu-background{
+    background-color: red;
+}
+.menu-superior{
+    background-color: red;
+    padding: 10px;
+    justify-self: center;
+}
+.tabela-inicio{
+    display: flex;
+    flex-direction: row;
+}
+.card, a, button{
+    transition: all 0.7s ease-in-out;
+}
+.card{
+    padding: 10px;
+    border: solid red;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: #ff00008b;
+    transform: translateY(-10px);
+    border-color: red;
+    box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
+}
+.button-action{
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.1s;
+}
+.button-action:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+}

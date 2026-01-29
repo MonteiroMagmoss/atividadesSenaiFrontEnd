@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+label{
+    display: inline-block;
+    width: 250px;
+}
+input[type="text"],input[type="email"]{
+    justify-self: end;
+    width: 200px;
+}
+
+.titulo-pagina{
+    color: blueviolet;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: 10px;
+    justify-self: center;
+}
+.logo-img{
+    width: 150px;
+    height: 25px;
+}
+
+.menu-background{
+    background-color: red;
+}
+.navbar{
+    background-color: red;
+    padding: 10px;
+    justify-self: center;
+}
+.tabela-inicio{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-principal{
+    padding: 50px;
+    border: solid red 5px;
+}
+.formulario{
+    width: max-content;
+    padding: 20px;
+    border: solid black 5px;
+}
