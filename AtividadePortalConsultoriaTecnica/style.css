@@ -38,7 +38,7 @@ a:hover{
     flex-direction: row;
 }
 .card, a, button{
-    transition: all 0.4s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 .card{
     padding: 10px;
@@ -52,9 +52,16 @@ a:hover{
     border-color: red;
     box-shadow: 0 10px 20px rgba(red, green, blue, alpha);
 }
-.botao-info{
+.button-action{
     background-color: yellowgreen;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    padding: 10px;
+    transition: 0.1s;
+}
+.button-action:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
 }
