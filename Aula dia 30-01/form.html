@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Matricula</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="menu-background">
+        <nav class="navbar">
+        <div class="logo">
+            <img class="logo-img" src="images/senaiLogo.png" alt="">
+        </div>
+        <tr class="tabela-inicio">
+            <th><a href="./home.html">Ínicio</a></th>
+            <th><a href="#">Serviços</a></th>
+            <th><a href="#">Projetos</a></th>
+            <th><a href="#">Portifólio</a></th>
+            <th><a href="#">Consultoria</a></th>
+            <th><a href="#">Sobre</a></th>
+        </tr>
+    </nav>
+    </div>
+    <section class="container-principal">
+        <div class="form-card">
+            <h1 class="ficha">Ficha de Matricula</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum doloribus accusamus officia cum libero vitae nisi consectetur impedit! Reiciendis voluptate exercitationem, harum aliquid praesentium quos. Magni dolorum suscipit culpa unde.</p>
+            <form class="formulario" action="#">
+                <div class="campo">
+                    <label for="nome">Nome completo</label>
+                    <input class="info" type="text" id="nome" placeholder="Digite seu Nome Completo...">
+                </div><br>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail...">
+                </div><br>
+                <div class="campo">
+                    <label for="email">Confirme o seu E-mail</label>
+                    <input type="email" id="emailconf" placeholder="Confirme o seu E-mail...">
+                </div><br>
+                <div class="campo">
+                    <label for="especialidade">Áreas de Consultoria</label>
+                    <select id="especialidade">
+                        <option value="design">Design</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="projele">Projetos Eletricos</option>
+                        <option value="projele">Inteligência Artificial</option>
+                        <option value="projele">Lógica de Programação</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

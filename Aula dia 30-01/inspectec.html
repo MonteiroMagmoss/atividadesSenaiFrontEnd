@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI Área do Admin</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="menu-background">
+        <nav class="navbar">
+            <div class="logo">
+                <img class="logo-img" src="images/senaiLogo.png" alt="">
+            </div>
+            <tr class="tabela-inicio">
+                <th><a href="./home.html">Início</a></th>
+                <th><a href="#">Serviços</a></th>
+                <th><a href="#">Projetos</a></th>
+                <th><a href="#">Portifólio</a></th>
+                <th><a href="./form.html">Consultoria</a></th>
+                <th><a href="#">Sobre</a></th>
+            </tr>
+        </nav>
+    </div>
+    <section class="container-principal">
+        <div class="login">
+            <details class="area-admin">
+                <summary class="login-validation"> Validar Acesso:
+                    <form class="formulario" action="#"><br>
+                        <div class="campo-login">
+                            <label for="email">E-mail</label>
+                            <input class="info" id="email" placeholder="Digite seu E-mail..." type="email">
+                        </div>
+                        <div class="campo-login">
+                            <label for="password">Senha</label>
+                            <input class="info" id="password" placeholder="Digite sua Senha..." type="password">
+                        </div><br>
+                        <div class="validation">
+                            <button class="entrar-button">Entrar</button>
+                            <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+                        </div><br>
+                    </form>
+                </summary>
+                <div class="conteudo">
+                    <h3>Requerimento de Inspeção: </h3>
+                    <div class="campo-preenchimento">
+                        <label for="">Nome</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Data</label>
+                        <input class="info-inspec" id="" type="date" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Região</label>
+                        <select name="" id="">
+                            <option value="">Escolha uma opção</option>
+                            <option value="">SP</option>
+                            <option value="">RJ</option>
+                            <option value="">DF</option>
+                        </select>
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Endereço</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Unidade</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Salas</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Tipo de inspeção</label>
+                        <select name="" id="">
+                            <option value="">Escolha uma opção</option>
+                            <option value="">Rotina</option>
+                            <option value="">Emergência</option>
+                            <option value="">Investigação</option>
+                        </select>
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Periculosidade</label>
+                        <input class="info-inspec" id="" type="radio" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Pessoas envolvidas</label>
+                        <input class="info-inspec" id="" type="number" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Supervisor</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Descrição</label>
+                        <textarea name="textarea-description" id=""></textarea>
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label for="">Justificativa</label>
+                        <textarea name="textarea-justification" id=""></textarea>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </section>
+</body>
+</html>
