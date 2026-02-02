@@ -1,0 +1,61 @@
+Objetivo: 
+
+Fazer que os técnicos de campo consigam inspecionar e 
+registrar riscos encontrados em canteiros de obras ou 
+plantas industriais através de uma interface rápida e
+interativa.
+
+
+
+Pesquisa:
+
+    Riscos:
+    - Quedas de altura
+    - Escorregões
+    - Quedas de objetos
+    - Ruídos
+    - Exposição a substâncias tóxicas
+    - Choques elétricos
+    - Queimaduras
+    - Desabamentos repentinos
+
+    Medidas de prevenção:
+    - Equipamentos de Proteção Individual(EPI)
+    - Treinamento adequado
+    - Manutenção de equipamentos
+    - Criação de um ambiente de trabalho seguro e organizado
+
+
+Selecionar unidade/endereço, sala, inserir nomes dos
+envolvidos e responsáveis
+
+
+Precisa de um cabeçalho
+
+    - Dados importantes: 
+            - Nome Completo da pessoa a fazer o requerimento
+            - 
+    - Área em que o serviço será localizado
+            - Região
+            - Endereço do edificio 
+            - Unidade
+            - Salas de interação
+            -
+    - Informações do serviço
+            - Data da realização do serviço
+            - Horario começo e fim do serviço
+
+            - Tipo de inspeção
+            - Nível de periculosidade
+            - Pessoas envolvidas e quantas são
+            - Definir supervisor
+            - Descrição/Objetivo do serviço
+            - Justificativa
+    - Preparação do serviço
+            - Requerimentos 
+            - Registro de possíveis riscos
+            - Exigencias minimas (data do último 
+            treinamento a ser realizado)
+
+
+Gerar um número do registro da documentação

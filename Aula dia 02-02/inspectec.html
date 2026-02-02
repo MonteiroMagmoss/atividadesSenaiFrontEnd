@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI Área do Admin</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="menu-background">
+        <a class="admin" href="inspectec.html">Área do Administrador</a> 
+        <nav class="navbar">
+        <div class="logo">
+            <img class="logo-img" src="images/senaiLogo.png" alt="">
+        </div>
+        <tr class="tabela-inicio">
+            <th><a href="./home.html">Ínicio</a></th>
+            <th><a href="#">Serviços</a></th>
+            <th><a href="#">Projetos</a></th>
+            <th><a href="#">Portifólio</a></th>
+            <th><a href="./form.html">Consultoria</a></th>
+            <th><a href="#">Sobre</a></th>
+        </tr>
+    </nav>
+    </div>
+    <section class="container-principal">
+        <div class="login">
+            <details class="area-admin">
+                <summary class="login-validation"> Validar Acesso:
+                    <form class="formulario" action="#"><br>
+                        <div class="campo-login">
+                            <label for="email">E-mail</label>
+                            <input class="info" id="email" placeholder="Digite seu E-mail..." type="email">
+                        </div>
+                        <div class="campo-login">
+                            <label for="password">Senha</label>
+                            <input class="info" id="password" placeholder="Digite sua Senha..." type="password">
+                        </div><br>
+                        <div class="validation">
+                            <button class="entrar-button">Entrar</button>
+                            <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+                        </div><br>
+                    </form>
+                </summary><br><br><br><br>
+                <div class="conteudo">
+                    <h3>Requerimento de Inspeção: </h3><br><br>
+                    <p class="description">A ficha de inspeção é um documento que visa garantir o controle de qualidade e a segurança em diversos setores. A ficha deve conter informações detalhadas sobre o que foi inspecionado, quem realizou a inspeção e quando o procedimento ocorreu. 
+                        Utilizar uma ficha de inspeção bem elaborada contribui para a organização e a eficiência do trabalho. Ao detalhar as não conformidades encontradas e as ações corretivas sugeridas, a ficha permite um acompanhamento mais preciso das medidas adotadas. 
+                    </p><br><br>
+                    <div class="campo-preenchimento">
+                        <label class="dados-iniciais" for="">Nome completo do requerente</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite o nome completo...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label class="dados-iniciais" for="">Data do requerimento</label>
+                        <input class="info-inspec" id="" type="date" placeholder="Selecione a data...">
+                    </div><br>
+                    <div>
+                        <p>Dados da inspeção: </p><br>
+                    </div>
+                    <div class="campo-preenchimento">
+                        <label class="local" for="">Região</label>
+                        <select name="regiao" id="regiao" class="info-inspec">
+                            <option value="">Escolha uma região</option>
+                            <option value="">SP</option>
+                            <option value="">RJ</option>
+                            <option value="">DF</option>
+                            <option value="">MG</option>
+                            <option value="">RS</option>
+                        </select>
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label class="local" for="">Endereço</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Informe o endereço...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label class="local" for="">Unidade</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite a unidade...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label class="local" for="">Salas</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite as salas utilizadas...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Tipo de inspeção</label>
+                        <fieldset class="tipo-inspec">
+                            <input type="radio" name="type-inspec" value="rotina">
+                            <label class="label-fieldset" for="rotina">Rotina</label>
+                            <input type="radio" name="type-inspec" value="emergencia">
+                            <label class="label-fieldset" for="emergencia">Emergência</label>
+                            <input type="radio" name="type-inspec" value="investigacao">
+                            <label class="label-fieldset" for="investigacao">Investigação</label>
+                            <input type="radio" name="type-inspec" value="outro">
+                            <label class="label-fieldset" for="outro">Outro</label>
+                        </fieldset>
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Justifique o motivo da inspeção</label><br>
+                        <textarea name="textarea-justification" id="" placeholder="Escreva a justificativa..."></textarea>
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Periculosidade da inspeção</label>
+                        <fieldset>
+                            <input type="radio" id="nenhuma" name="periculosidade" value="nenhuma">
+                            <label for="nenhuma">Nenhuma</label><br>
+                            <input type="radio" id="baixa" name="periculosidade" value="baixa">
+                            <label for="baixa">Baixa</label><br>
+                            <input type="radio" id="media" name="periculosidade" value="media">
+                            <label for="media">Média</label><br>
+                            <input type="radio" id="alta" name="periculosidade" value="alta">
+                            <label for="alta">Alta</label><br>
+                            <input type="radio" id="nao-medido" name="periculosidade" value="nao-medido">
+                            <label for="nao-medido">Não Medido</label>
+                        </fieldset>
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Análise de risco</label><br>
+                        <fieldset>
+                            <legend>Perigos a serem observados</legend>
+                            <div>
+                                <input type="checkbox" id="quimico" name="perigo" value="quimico">
+                                <label for="quimico">Químico</label><br>
+                                <input type="checkbox" id="fisico" name="perigo" value="fisico">
+                                <label for="fisico">Físico</label><br>
+                                <input type="checkbox" id="biologico" name="perigo" value="biologico">
+                                <label for="biologico">Biológico</label><br>
+                                <input type="checkbox" id="ergonomico" name="perigo" value="ergonomico">
+                                <label for="ergonomico">Ergonômico</label><br>
+                                <input type="checkbox" id="altura" name="perigo" value="altura">
+                                <label for="altura">Quedas de Altura</label><br>
+                                <input type="checkbox" id="escorregao" name="perigo" value="escorregao">
+                                <label for="escorregao">Escorregão</label><br>
+                                <input type="checkbox" id="quedas-objeto" name="perigo" value="quedas-objeto">
+                                <label for="quedas-objeto">Quedas de Objeto</label><br>
+                                <input type="checkbox" id="ruidos" name="perigo" value="ruidos">
+                                <label for="ruidos">Ruidos</label><br>
+                                <input type="checkbox" id="exposicao-toxica" name="perigo" value="exposicao-toxica">
+                                <label for="exposicao-toxica">Exposição à substâncias Tóxicas</label><br>
+                                <input type="checkbox" id="desabamento" name="perigo" value="desabamento">
+                                <label for="desabamento">Desabamentos repentinos</label><br>
+                            </div>
+                        </fieldset>
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Nome do Supervisor</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite o nome do supervisor...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Número de pessoas envolvidas na inspeção</label>
+                        <input class="info-inspec" id="" type="number" placeholder="Insire o número de pessoas...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Descrição da realização da inspeção</label><br>
+                        <textarea name="textarea-description" id="" placeholder="Descreva como será o procedimento..."></textarea>
+                    </div><br>
+                    <div class="campo-botao">
+                        <button class="submit-inspec">Enviar Requerimento</button>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </section>
+</body>
+</html>
