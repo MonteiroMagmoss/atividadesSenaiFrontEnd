@@ -12,12 +12,17 @@ a:hover{
     transition: all 0.3s ease-in-out;
 }
 label{
-    display: inline-block;
+    text-wrap: nowrap;
     width: 250px;
+    display: inline-block;
 }
-input[type="text"],input[type="email"], input[type="password"]{
+input[type="text"],input[type="number"],input[type="email"], input[type="password"]{
     justify-self: end;
     width: 200px;
+}
+textarea{
+    width:800px;
+    height: 150px;
 }
 
 .titulo-pagina{
@@ -105,4 +110,30 @@ input[type="text"],input[type="email"], input[type="password"]{
 .conteudo{
     border:solid black 2px;
     padding: 10px;
+    width: max-content;
+}
+
+
+
+.campo-botao{
+    margin-bottom: 10px;
+    justify-self: center;
+}
+.submit-inspec{
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+.submit-inspec:hover{
+    background-color: rgb(255, 89, 89);
+    color: black;
+    border: solid black 2px;
+    transform: scale(1.1);
+    cursor: pointer;
 }

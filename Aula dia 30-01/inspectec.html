@@ -40,66 +40,117 @@
                             <a href="#" class="esqueci-senha">Esqueci minha senha</a>
                         </div><br>
                     </form>
-                </summary>
+                </summary><br><br><br><br>
                 <div class="conteudo">
                     <h3>Requerimento de Inspeção: </h3>
                     <div class="campo-preenchimento">
-                        <label for="">Nome</label>
-                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
-                    </div>
+                        <label for="">Nome completo do requerente</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite o nome completo...">
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Data</label>
-                        <input class="info-inspec" id="" type="date" placeholder="Digite aqui...">
+                        <label for="">Data do requerimento</label>
+                        <input class="info-inspec" id="" type="date" placeholder="Selecione a data...">
+                    </div><br>
+                    <div>
+                        <p>Dados da inspeção: </p><br>
                     </div>
                     <div class="campo-preenchimento">
                         <label for="">Região</label>
-                        <select name="" id="">
-                            <option value="">Escolha uma opção</option>
+                        <select name="regiao" id="regiao" class="info-inspec">
+                            <option value="">Escolha uma região</option>
                             <option value="">SP</option>
                             <option value="">RJ</option>
                             <option value="">DF</option>
+                            <option value="">MG</option>
+                            <option value="">RS</option>
                         </select>
-                    </div>
+                    </div><br>
                     <div class="campo-preenchimento">
                         <label for="">Endereço</label>
-                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
-                    </div>
+                        <input class="info-inspec" id="" type="text" placeholder="Informe o endereço...">
+                    </div><br>
                     <div class="campo-preenchimento">
                         <label for="">Unidade</label>
-                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
-                    </div>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite a unidade...">
+                    </div><br>
                     <div class="campo-preenchimento">
                         <label for="">Salas</label>
-                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
-                    </div>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite as salas utilizadas...">
+                    </div><br>
                     <div class="campo-preenchimento">
                         <label for="">Tipo de inspeção</label>
-                        <select name="" id="">
-                            <option value="">Escolha uma opção</option>
-                            <option value="">Rotina</option>
-                            <option value="">Emergência</option>
-                            <option value="">Investigação</option>
-                        </select>
-                    </div>
+                        <fieldset>
+                            <input type="radio" name="type-inspec" value="rotina">
+                            <label for="rotina">Rotina</label>
+                            <input type="radio" name="type-inspec" value="emergencia">
+                            <label for="emergencia">Emergência</label>
+                            <input type="radio" name="type-inspec" value="investigacao">
+                            <label for="investigacao">Investigação</label>
+                            <input type="radio" name="type-inspec" value="outro">
+                            <label for="outro">Outro</label>
+                        </fieldset>
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Periculosidade</label>
-                        <input class="info-inspec" id="" type="radio" placeholder="Digite aqui...">
-                    </div>
+                        <label for="">Justifique o motivo da inspeção</label><br>
+                        <textarea name="textarea-justification" id="" placeholder="Escreva a justificativa..."></textarea>
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Pessoas envolvidas</label>
-                        <input class="info-inspec" id="" type="number" placeholder="Digite aqui...">
-                    </div>
+                        <label for="">Periculosidade da inspeção</label>
+                        <fieldset>
+                            <input type="radio" id="nenhuma" name="periculosidade" value="nenhuma">
+                            <label for="nenhuma">Nenhuma</label><br>
+                            <input type="radio" id="baixa" name="periculosidade" value="baixa">
+                            <label for="baixa">Baixa</label><br>
+                            <input type="radio" id="media" name="periculosidade" value="media">
+                            <label for="media">Média</label><br>
+                            <input type="radio" id="alta" name="periculosidade" value="alta">
+                            <label for="alta">Alta</label><br>
+                            <input type="radio" id="nao-medido" name="periculosidade" value="nao-medido">
+                            <label for="nao-medido">Não Medido</label>
+                        </fieldset>
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Supervisor</label>
-                        <input class="info-inspec" id="" type="text" placeholder="Digite aqui...">
-                    </div>
+                        <label for="">Análise de risco</label><br>
+                        <fieldset>
+                            <legend>Perigos a serem observados</legend>
+                            <div>
+                                <input type="checkbox" id="quimico" name="perigo" value="quimico">
+                                <label for="quimico">Químico</label><br>
+                                <input type="checkbox" id="fisico" name="perigo" value="fisico">
+                                <label for="fisico">Físico</label><br>
+                                <input type="checkbox" id="biologico" name="perigo" value="biologico">
+                                <label for="biologico">Biológico</label><br>
+                                <input type="checkbox" id="ergonomico" name="perigo" value="ergonomico">
+                                <label for="ergonomico">Ergonômico</label><br>
+                                <input type="checkbox" id="altura" name="perigo" value="altura">
+                                <label for="altura">Quedas de Altura</label><br>
+                                <input type="checkbox" id="escorregao" name="perigo" value="escorregao">
+                                <label for="escorregao">Escorregão</label><br>
+                                <input type="checkbox" id="quedas-objeto" name="perigo" value="quedas-objeto">
+                                <label for="quedas-objeto">Quedas de Objeto</label><br>
+                                <input type="checkbox" id="ruidos" name="perigo" value="ruidos">
+                                <label for="ruidos">Ruidos</label><br>
+                                <input type="checkbox" id="exposicao-toxica" name="perigo" value="exposicao-toxica">
+                                <label for="exposicao-toxica">Exposição à substâncias Tóxicas</label><br>
+                                <input type="checkbox" id="desabamento" name="perigo" value="desabamento">
+                                <label for="desabamento">Desabamentos repentinos</label><br>
+                            </div>
+                        </fieldset>
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Descrição</label>
-                        <textarea name="textarea-description" id=""></textarea>
-                    </div>
+                        <label for="">Nome do Supervisor</label>
+                        <input class="info-inspec" id="" type="text" placeholder="Digite o nome do supervisor...">
+                    </div><br>
                     <div class="campo-preenchimento">
-                        <label for="">Justificativa</label>
-                        <textarea name="textarea-justification" id=""></textarea>
+                        <label for="">Número de pessoas envolvidas na inspeção</label>
+                        <input class="info-inspec" id="" type="number" placeholder="Insire o número de pessoas...">
+                    </div><br>
+                    <div class="campo-preenchimento">
+                        <label for="">Descrição da realização da inspeção</label><br>
+                        <textarea name="textarea-description" id="" placeholder="Descreva como será o procedimento..."></textarea>
+                    </div><br>
+                    <div class="campo-botao">
+                        <button class="submit-inspec">Enviar Requerimento</button>
                     </div>
                 </div>
             </details>
