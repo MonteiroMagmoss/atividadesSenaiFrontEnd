@@ -1,0 +1,194 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+label{
+    padding: 5px;
+    text-wrap: nowrap;
+    width: 400px;
+    display: inline-block;
+}
+input[type="text"],input[type="number"],input[type="email"], input[type="password"], input[type="date"], select{
+    justify-self: end;
+    width: 400px;
+    padding: 5px;
+    box-shadow: inset 0 0 2px black;
+}
+textarea{
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 1200px;
+    height: 150px;
+    box-shadow: inset 0 0 5px black;
+}
+fieldset{
+    background-color: white;
+    border-color: red;
+    box-shadow: inset 0 0 5px black;
+    justify-self: center;
+}
+button{
+    box-shadow: 0px 0px 5px black;
+}
+.label-fieldset{
+    padding: 5px;
+    text-wrap: nowrap;
+    width: 200px;
+    display: inline-block;
+}
+
+
+
+.admin{
+    padding: 5px;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+}
+
+.titulo-pagina{
+    color: blueviolet;
+    margin-top: 30px;
+}
+
+.logo{
+    padding: 10px;
+    justify-self: center;
+}
+.logo-img{
+    width: 150px;
+    height: 25px;
+}
+
+.menu-background{
+    background-color: red;
+}
+.navbar{
+    background-color: red;
+    padding: 10px;
+    justify-self: center;
+}
+.tabela-inicio{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-principal{
+    padding: 50px;
+    border: solid red 5px;
+}
+.formulario{
+    width: max-content;
+    padding: 20px;
+    border: solid black 5px;
+    justify-self: center;
+}
+
+
+.login{
+    justify-self: center;
+}
+.login-validation{
+    justify-content: center;
+    padding: 10px;
+}
+.validation{
+    justify-self: center;
+    text-align: center;
+}
+.campo-login{
+    padding: 5px;
+}
+.entrar-button{
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.entrar-button:hover{
+    background-color: rgb(255, 89, 89);
+    color: black;
+    border: solid black 2px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.esqueci-senha{
+    color: blue;
+}
+.esqueci-senha:hover{
+    text-decoration: underline;
+}
+
+.area-admin{
+    width: 1100px;
+}
+.conteudo{
+    background: linear-gradient(45deg, white 10%, rgba(255, 0, 0, 0.281));
+    justify-self: center;
+    border:solid red 3px;
+    padding: 200px;
+    width: auto;
+    box-shadow: 0px 0px 20px black;
+}
+.description{
+    width: 1100px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20%;
+    text-wrap-mode: wrap;
+}
+
+.dados-iniciais{
+    text-indent: 40%;
+}
+.local{
+    text-indent: 80%;
+}
+.tipo-inspec{
+    background-color: white;
+    display: flex;
+    flex: 100px;
+    flex-direction: row;
+}
+.campo-botao{
+    margin-bottom: 10px;
+    justify-self: center;
+}
+.submit-inspec{
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+.submit-inspec:hover{
+    background-color: rgb(255, 89, 89);
+    color: black;
+    border: solid black 2px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
