@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-logo{
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 100%;
+}
+.inicial-page{
+    background-color: skyblue;
+    text-align: justify;
+    text-shadow: 1px 1px 1px green;
+    border-radius: 20%;
+    padding: 40px;
+    display: flex;
+}
+.inicial-description{
+    max-width: 500px;
+}
+.petshop-description{
+    text-indent: 10%;
+}
+.inicial-img{
+    padding-left: 50px;
+}
+.local-button{
+    justify-self: center;
+}
+.inicial-button{
+    justify-self: center; 
+    background-color: #aaff00;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px teal;
+    font-size: 20px;
+    border: solid;
+    border-radius: 45%;
+    width: max-content;
+    height: 60px;
+}
+.inicial-button:hover{
+    background-color: yellow;
+    color: violet;
+    text-shadow: 2px 2px 2px blue;
+    border: 4px solid;
+}
