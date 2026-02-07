@@ -1,20 +1,30 @@
 body{
-    background-color: aqua;
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 .img-logo{
-    width: 100px;
+    width: 200px;
     padding-left: 15px;
     padding-top: 15px;
     border-radius: 100%;
 }
+.background-header{
+    background-color: #75ffff;
+    padding-bottom: 50px;
+}
 .inicial-page{
-    background-color: skyblue;
+    background-color: #87cfeb94;
     text-align: justify;
     text-shadow: 1px 1px 1px green;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 40px;
     display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 50px;
+    width: max-content;
 }
 .inicial-description{
     max-width: 500px;
@@ -45,4 +55,22 @@ body{
     color: violet;
     text-shadow: 2px 2px 2px blue;
     border: 4px solid;
+}
+
+.intro-page{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.mid-page{
+    background-color: #b6ff23;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.map-img{
+    justify-self: center;
 }
