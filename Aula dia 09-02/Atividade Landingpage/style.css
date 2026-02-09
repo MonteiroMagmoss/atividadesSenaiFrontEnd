@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #a4ffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
@@ -17,10 +17,10 @@ th{
     padding-top: 50px;
 }
 .top-table{
-    background-color: #cdffff;
+    background-color: #cdffe6a4;
     display: flex;
     flex-direction: row;
-    border: 5px solid #cdffffa4;
+    border: 5px solid #58f7a7a4;
     border-radius: 20px;
     border-collapse: collapse;
     box-shadow: 2px 2px 2px #8a8a8a;
@@ -51,8 +51,8 @@ th{
     animation-iteration-count: infinite;
 }
 .background-header{
-    background: linear-gradient( #75ffff 90%, white);
-    background-color: #75ffff;
+    background: linear-gradient( #ceff6c 90%, #a4ffff);
+    background-color: #ceff6c;
     padding-bottom: 50px;
 }
 @keyframes logo-animation{
@@ -106,7 +106,7 @@ th{
 }
 .inicial-button{
     justify-self: center;
-    background-color: #aaff00;
+    background-color: #d5df49;
     color: blueviolet;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px teal;
@@ -131,13 +131,13 @@ th{
 
 /* intro page config*/
 .intro-page{
-    background-color: white;
+    background-color: #a4ffff;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .card-container{
-    background-color: #ffe8c6a2;
+    background-color: #ffe8c6e1;
     width: 900px;
     height: 400px;
     box-shadow: 2px 2px 5px 1px black;
@@ -151,7 +151,7 @@ th{
     transform: translateX(100px);
 }
 .card-container-alt{
-    background-color: #ffe8c6a2;
+    background-color: #ffe8c6e1;
     width: 900px;
     height: 400px;
     box-shadow: 2px 2px 5px 1px black;
@@ -185,8 +185,8 @@ th{
 
 /* start page config*/
 .start-page{
-    background: linear-gradient(white, #b6ff23 10%, #b6ff23 85%, white);
-    background-color: #b6ff23;
+    background: linear-gradient(#a4ffff, #ceff6c 10%, #ceff6c 85%, white);
+    background-color: #ceff6c;
     padding-left: 30px;
     padding-top: 20px;
 }
@@ -206,15 +206,17 @@ th{
 
 /* mid page config*/
 .mid-page{
-    background-color: white;
+    background-color: #ffffff;
     padding-left: 30px;
     padding-top: 20px;
 }
 .mid-img-container{
     justify-self: center;
+    border-radius: 100px;
 }
 .mid-img{
     padding: 20px;
+    border-radius: 100px;
     width: 600px;
 }
 .mid-container{
@@ -227,16 +229,54 @@ th{
 
 /* end page config*/
 .end-page{
-    background: linear-gradient(white, #61faff 10%, #61faff 80%, white);
+    background: linear-gradient(white, #ceff6c 20%, #ceff6c 70%, #a4ffff);
     background-color: #61faff;
     padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
+}
+.produtos-container{
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+}
+.produtos-card{
+    background-color: #ffffffbb;
+    box-shadow: 2px 2px 5px 1px black;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.produtos-card:hover{
+    transform: scale(1.05);
+}
+.prod-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+}
+.comprar-button{
+    background-color: #81d468;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.comprar-button:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    border: 2px solid black;
+    text-shadow: 2px 2px 1px gray;
 }
 
 /* end page config*/
 .final-page{
-    background: linear-gradient(white, #c861ff 20%);
-    background-color: #c861ff;
+    background-color: #a4ffff;
     padding-left: 30px;
     padding-top: 20px;
 }
