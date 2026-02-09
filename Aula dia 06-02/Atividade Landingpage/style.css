@@ -16,6 +16,7 @@ body{
 }
 .inicial-page{
     background-color: #87cfeb94;
+    box-shadow: 2px 2px 5px 1px black;
     text-align: justify;
     text-shadow: 1px 1px 1px green;
     border-radius: 10%;
@@ -64,6 +65,46 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.card-container{
+    background-color: #ffe8c6a2;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 5px 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-items: end;
+}
+.card-container-alt{
+    background-color: #ffe8c6a2;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 5px 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-items: end;
+    justify-self: end;
+}
+.card-description{
+    text-align: justify;
+    text-shadow: 1px 1px 1px violet;
+    font-size: 18px;
+    padding: 20px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 450px;
+    height: 300px;
+    padding: 20px;        
+    border-radius: 100px;
+}
 
 
 .mid-page{
@@ -72,7 +113,16 @@ body{
     padding-left: 30px;
     padding-top: 20px;
 }
-
-.map-img{
+.contatos-container{
+    display: flex;
+    gap: 50px;
     justify-self: center;
+}
+.contatos{
+    align-self: center;
+    width: 500px;
+}
+.map-container  {
+    justify-self: center;
+    box-shadow: 2px 2px 5px 1px black;
 }
