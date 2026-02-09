@@ -10,6 +10,7 @@ body{
     border-radius: 100%;
 }
 .background-header{
+    background: linear-gradient( #75ffff 90%, white);
     background-color: #75ffff;
     padding-bottom: 50px;
 }
@@ -39,7 +40,7 @@ body{
     justify-self: center;
 }
 .inicial-button{
-    justify-self: center; 
+    justify-self: center;
     background-color: #aaff00;
     color: blueviolet;
     text-transform: uppercase;
@@ -66,6 +67,7 @@ body{
 
 
 .mid-page{
+    background: linear-gradient(white, #b6ff23 20%);
     background-color: #b6ff23;
     padding-left: 30px;
     padding-top: 20px;
