@@ -1,0 +1,242 @@
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+th{
+    padding: 20px;
+    align-self: center;
+    
+}
+.card-container,.card-container-alt, a, button{
+    transition: all 0.3s ease-in-out;
+}
+.top-menu{
+    justify-self: center;
+    align-self: center;
+    padding-top: 50px;
+}
+.top-table{
+    background-color: #cdffff;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #cdffffa4;
+    border-radius: 20px;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 2px #8a8a8a;
+}
+.top-button{
+    background-color: #dea2ff;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    border-radius: 100px;
+    font-size: 25px;
+    padding: 20px;
+}
+.top-button:hover{
+    background-color: purple;
+    color: white;
+    transform: scale(1.1);
+    border: 2px solid black;
+    text-shadow: 2px 2px 1px gray;
+}
+
+.img-logo{
+    width: 200px;
+    padding-left: 15px;
+    border-radius: 100%;
+
+    animation-name: logo-animation;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+.background-header{
+    background: linear-gradient( #75ffff 90%, white);
+    background-color: #75ffff;
+    padding-bottom: 50px;
+}
+@keyframes logo-animation{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+/* inicial page config*/
+.inicial-page{
+    background-color: #87cfeb94;
+    box-shadow: 2px 2px 5px 1px black;
+    text-align: justify;
+    text-shadow: 1px 1px 1px green;
+    border-radius: 10%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 50px;
+    width: max-content;
+}
+.inicial-description{
+    max-width: 500px;
+}
+.petshop-description{
+    text-indent: 10%;
+}
+.inicial-img{
+    padding-left: 50px;
+    
+    animation-name: inicial-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.local-button{
+    justify-self: center;
+}
+.inicial-button{
+    justify-self: center;
+    background-color: #aaff00;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px teal;
+    font-size: 20px;
+    border: solid;
+    border-radius: 45%;
+    width: max-content;
+    height: 60px;
+}
+.inicial-button:hover{
+    background-color: yellow;
+    color: violet;
+    text-shadow: 2px 2px 2px blue;
+    border: 4px solid;
+    transform: scale(1.2);
+}
+@keyframes inicial-animation{
+    50%{
+        transform: scale(1.025);
+    }
+}
+
+/* intro page config*/
+.intro-page{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-container{
+    background-color: #ffe8c6a2;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 5px 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-items: end;
+}
+.card-container:hover{
+    transform: translateX(100px);
+}
+.card-container-alt{
+    background-color: #ffe8c6a2;
+    width: 900px;
+    height: 400px;
+    box-shadow: 2px 2px 5px 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-items: end;
+    justify-self: end;
+}
+.card-container-alt:hover{
+    transform: translateX(-100px);
+}
+.card-description{
+    text-align: justify;
+    text-shadow: 1px 1px 1px violet;
+    font-size: 18px;
+    padding: 20px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    width: 450px;
+    height: 300px;
+    padding: 20px;        
+    border-radius: 100px;
+}
+
+/* start page config*/
+.start-page{
+    background: linear-gradient(white, #b6ff23 10%, #b6ff23 85%, white);
+    background-color: #b6ff23;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.contatos-container{
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+}
+.contatos{
+    align-self: center;
+    width: 500px;
+}
+.map-container  {
+    justify-self: center;
+    box-shadow: 2px 2px 5px 1px black;
+}
+
+/* mid page config*/
+.mid-page{
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.mid-img-container{
+    justify-self: center;
+}
+.mid-img{
+    padding: 20px;
+    width: 600px;
+}
+.mid-container{
+    display: flex;
+    justify-self: center;
+}
+.mid-desc{
+    width: 600px;
+}
+
+/* end page config*/
+.end-page{
+    background: linear-gradient(white, #61faff 10%, #61faff 80%, white);
+    background-color: #61faff;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* end page config*/
+.final-page{
+    background: linear-gradient(white, #c861ff 20%);
+    background-color: #c861ff;
+    padding-left: 30px;
+    padding-top: 20px;
+}
