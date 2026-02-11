@@ -1,0 +1,26 @@
+Descrição da atividade:
+
+Sou proprietário de uma Pet Shop que está se preparando para abrir as portas.
+Preciso de uma Landing Page para atrair novos clientes e mostrar que minha Pet Shop
+é impressionante.
+
+Importante:
+    - Mostrar os serviços que oferecemos(exmeplo: banho, tosa, venda de alimentos
+    e acessórios)
+    - Transmitir confiança e carinho para com os animais.
+
+
+Objetivo: Criar Landing Page
+
+Metas:
+    - Ser visualmente atraente
+    - Fácil navegabilidade
+    - Transmitir a mensagem certa para meu público alvo
+    - Incluir imagens de animias felizes e saudáveis
+    - Incluir informações sobre serviços(horário de funcionamento,
+    localização e formas de contato)
+
+Design:
+    - Impactar na primeira impressão(cativar e convencer os clientes sobre
+    o potencial de negócios da Pet Shop)
+    - Moderno e sofisticado ou acolhedor e familiar
