@@ -11,6 +11,33 @@ th{
 i{
     padding-left: 20px;
 }
+.modes{
+    display: flex;
+    gap: 20px;
+    justify-self: end;
+    padding-right: 20px;
+}
+.buttonMode{
+    background-color: #d5df49;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px teal;
+    font-size: 20px;
+    border: solid;
+    border-radius: 20%;
+    width: max-content;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.buttonMode:hover{
+    background-color: yellow;
+    color: violet;
+    text-shadow: 2px 2px 2px blue;
+    border: 4px solid;
+    cursor: pointer;
+}
 .card-container,.card-container-alt, a, button{
     transition: all 0.3s ease-in-out;
 }
@@ -63,8 +90,9 @@ i{
     padding-bottom: 50px;
 }
 .background-header-nova-cor{
-    background: linear-gradient(#6c951b 90%, #00937dff) !important;
-    background: #6c951b !important;
+    background: linear-gradient(#6c951b 90%, #00937dff);
+    background-color: #6c951b;
+    padding-bottom: 50px;
 }
 @keyframes logo-animation{
     0%{
@@ -169,7 +197,10 @@ i{
     padding-bottom: 20px;
 }
 .intro-page-new-color{
-    background-color: #00937dff !important;
+    background-color: #00937dff;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .card-container{
     background-color: #ffe8c6e1;
@@ -225,6 +256,12 @@ i{
     padding-left: 30px;
     padding-top: 20px;
 }
+.start-page-new-color{
+    background: linear-gradient(#00937dff, #6c951b 10%, #6c951b 85%, #b4b4b4);
+    background-color: #6c951b;
+    padding-left: 30px;
+    padding-top: 20px;
+}
 .contatos-container{
     display: flex;
     gap: 50px;
@@ -241,7 +278,12 @@ i{
 
 /* mid page config*/
 .mid-page{
-    background-color: #ffffff;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.mid-page-new-color{
+    background-color: #b4b4b4;
     padding-left: 30px;
     padding-top: 20px;
 }
@@ -263,13 +305,21 @@ i{
 }
 
 /* end page config*/
-#produtos{
+.end-page{
     background: linear-gradient(white, #c7ff56 20%, #c7ff56 70%, #68E3D1);
     background-color: #61faff;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
 }
+.end-page-new-color{
+    background: linear-gradient(#b4b4b4, #6c951b 20%, #6c951b 70%, #00937dff);
+    background-color: #00937dff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
 .produtos-container{
     display: flex;
     gap: 50px;
@@ -318,6 +368,14 @@ i{
     display: flex;
     justify-self: center;
 }
+.final-page-new-color{
+    background-color: #00937dff;
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-self: center;
+}
+
 .contatos-container{
     padding-right: 350px;
 }
