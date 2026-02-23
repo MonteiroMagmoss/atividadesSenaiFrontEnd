@@ -33,7 +33,7 @@ calcularButton.addEventListener("click", ()=>{
     const ladoY = Number(inputLargura.value);
     const area = ladoX * ladoY;
 
-    if(ladoX === "" || ladoY === ""){
+    if(ladoX === 0 || ladoY === 0){
         areaText.innerText = "Resultado: Insira um valor válido"
         areaText.style.color = "orange";
         return;
