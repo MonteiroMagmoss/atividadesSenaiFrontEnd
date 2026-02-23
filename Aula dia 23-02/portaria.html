@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portaria Digital</title>
+    <link rel="stylesheet" href="real.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Portaria Digital</h1>
+        <p>Preencha os dados de acesso</p>
+    </div>
+    <div class="form-group">
+        <label for="campoNome">Nome</label>
+        <input type="text" id="campoNome" placeholder="Digite seu nome">
+    </div>
+    <div class="form-group">
+        <label for="campoIdade">Sua Idade</label>
+        <input type="number" id="campoIdade" placeholder="Ex. 25">
+    </div>
+    <button id="verificarButton">Verificar Entrada</button>
+    <h3 id="mensagem"></h3>
+
+    <div>
+        <h2>Calcule a área</h2>
+        <p class="text">Insire o valor do comprimento e da largura para calcular a área</p>
+        <div class="form-group">
+            <label for="campoComprimento">Digite o valor do Comprimento</label>
+            <input type="number" id="campoComprimento" placeholder="Insira um valor">
+        </div>
+        <div class="form-group">
+            <label for="campoLargura">Digite a Largura</label>
+            <input type="number" id="campoLargura" placeholder="Insira um valor">
+        </div>
+        <button id="calcular">Calcular</button>
+        <h3 id="areaText">Resultado: </h3><br>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
