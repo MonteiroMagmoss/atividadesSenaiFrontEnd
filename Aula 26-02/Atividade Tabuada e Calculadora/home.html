@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada e Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tabuada">
+        <h1>Tabuada</h1>
+        <input type="number" id="numero" placeholder="Digite um número"><br><br>
+        <input type="number" id="range" placeholder="Digite o valor máximo"><br><br>
+        <div class="campo-botao">
+            <button id="calcularButton">Calcular</button>
+        </div>
+    </div><br><br>
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <input type="number" id="numberOne" placeholder="Digite um número"><br><br>
+        <input type="number" id="numberTwo" placeholder="Digite outro número"><br><br>
+        <select name="operators" id="operations">
+            <option value="">Escolha uma operação</option>
+            <option value="soma">Soma (+)</option>
+            <option value="sub">Subtração (-)</option>
+            <option value="mult">Multiplicação (x)</option>
+            <option value="div">Divisão (/)</option>
+        </select><br><br>
+        <div class="campo-botao">
+            <button id="calcularButtonTwo">Calcular</button>
+        </div>
+    </div>
+    <script src="tabuada.js"></script>
+</body>
+</html>

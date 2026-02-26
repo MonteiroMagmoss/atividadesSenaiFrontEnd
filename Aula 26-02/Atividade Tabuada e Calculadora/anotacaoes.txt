@@ -1,0 +1,8 @@
+Exercise 1:
+    Fazer tabuada do 1 ao 10
+
+Exercise 2:
+    Fazer com que o limite da tabuada possa ser alterada
+
+Exercise 3:
+    Adicionar novas operações(multiplicação, soma, subtração ou divisão)
