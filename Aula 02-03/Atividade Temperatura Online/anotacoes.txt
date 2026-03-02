@@ -1,0 +1,40 @@
+Gerar um medidor de temperatura online
+Termometro digital
+
+Verificar a temperatura da água (H2O -> OK)
+
+Definir como 
+- Fria
+- Aceitável
+- Quente
+
+1ª Situação
+Verão ou Inverno?
+
+
+
+
+temperatura da água
+
+Ambiente - entre 15º a 30º
+Ambiente Ideal - 20º a 25º
+Fria - 15º para baixo
+Pono de congelamento - 0º
+Água quente 35º a 38º
+
+
+Água{ <0º ou >100º } Não é água
+Temperatura{ 10º a 40º} é seguro
+
+
+Água Quente (Conforto e Limites):
+30°C - 34°C: Temperatura ideal de piscinas aquecidas para conforto, relaxamento e atividade física leve.
+35°C - 38°C: Limite superior para banhos quentes ou ofurôs. Exposição por muito tempo pode causar tontura, náuseas e exaustão, pois o corpo perde a capacidade de se resfriar.
+Acima de 40°C - 42°C: Risco crítico. A temperatura corporal sobe rápido, com risco de desnaturação de proteínas, danos aos órgãos e morte.
+Água Fria (Risco de Hipotermia):
+20°C - 25°C: Temperatura de conforto para natação e atividades físicas.
+10°C - 15°C: Muito frio. Começa a causar dificuldade na coordenação motora.
+Abaixo de 10°C: Extremamente perigoso. Pode causar choque térmico, perda de coordenação e morte por hipotermia rápida. 
+YouTube
+YouTube
+ +4
