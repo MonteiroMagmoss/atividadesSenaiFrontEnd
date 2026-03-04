@@ -17,14 +17,38 @@ document.getElementById("verificarButton").addEventListener("click", function(){
     if(temperatura > 0 && temperatura < 100){
         if(temperatura > 0 && temperatura < 10){
             message.textContent = "Água muito Fria";
+            message.style.color = "blue";
+            message.style.textShadow = "1px 1px 5px blue";
             return;
         }
-        if(temperatura > 10 && temperatura < 50){
-            message.textContent = "Água ta boa";
+        if(temperatura >10 && temperatura < 20){
+            message.textContent = "Água Fria";
+            message.style.color = "cyan";
+            message.style.textShadow = "1px 1px 5px blue";
+            return;
+        }
+        if(temperatura > 20 && temperatura < 30){
+            message.textContent = "Água Morna";
+            message.style.color = "green";
+            message.style.textShadow = "1px 1px 5px green";
+            return;
+        }
+        if(temperatura > 30 && temperatura < 40){
+            message.textContent = "Água Quente";
+            message.style.color = "yellow";
+            message.style.textShadow = "1px 1px 5px orange";
+            return;
+        }
+        if(temperatura > 40 && temperatura < 50){
+            message.textContent = "Água Muito Quente";
+            message.style.color = "orange";
+            message.style.textShadow = "1px 1px 5px orange";
             return;
         }
         if(temperatura > 50 && temperatura < 100){
             message.textContent = "Ta querendo virar lagosta?"
+            message.style.color = "red";
+            message.style.textShadow = "1px 1px 5px red";
             return;
         }
     }

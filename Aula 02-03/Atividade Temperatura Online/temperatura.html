@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="temp.css">
 </head>
 <body>
-    <h1>Verificar Temperatura</h1>
-    <label for="temperaturaInput">H2O</label>
-    <input type="number" step="0.1" placeholder="26,2º" id="temperaturaInput">
-    <button id="verificarButton">Verificar</button>
-    <p id="mensagem"></p>
+    <div class="temp">
+        <h1>Verificar Temperatura</h1>
+        <label for="temperaturaInput">Digite a temperatura em Celsius:</label>
+        <input type="number" step="0.1" placeholder="26,2º" id="temperaturaInput">
+        <h1>Estações do Ano</h1>
+        <select name="estacao" id="estacao">
+            <option value="">Selecione uma estação</option>
+            <option value="verao">Verão</option>
+            <option value="inverno">Inverno</option>
+            <option value="primavera">Primavera</option>
+            <option value="outono">Outono</option>
+        </select>
+        <button id="verificarButton">Verificar</button>
+        <p id="mensagem"></p>
+    </div>
     <script src="verificar.js"></script>
 </body>
 </html>
