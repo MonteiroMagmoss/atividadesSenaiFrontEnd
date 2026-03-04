@@ -1,6 +1,7 @@
 document.getElementById("verificarButton").addEventListener("click", function(){
     let temperatura = document.getElementById("temperaturaInput").value;
     let message = document.getElementById("mensagem");
+    let estacaoAno = document.getElementById("estacao").value;
 
     if(isNaN(temperatura)){
         alert("Digite uma temperatura válida entre 1 e 99 graus.");
@@ -14,43 +15,80 @@ document.getElementById("verificarButton").addEventListener("click", function(){
         alert("O valor digitado corresponde a água no estado gasoso! Digite um valor para a água no estado líquido.");
         return;
     }
+
+    let temperaturaMuitoGelada = 1;
+    let temperaturaGelada = 10;
+    let temperaturaFria = 20;
+    let temperaturaMorna = 30;
+    let temperaturaQuente = 40;
+    let temperaturaMuitoQuente = 50;
+
+    if(estacaoAno === "inverno"){
+        temperaturaGelada = 20;
+        temperaturaFria = 30;
+        temperaturaMorna = 40;
+        temperaturaQuente = 50;
+        temperaturaMuitoQuente = 60;
+    }
+    else if(estacaoAno === "verao"){
+        temperaturaGelada = 5;
+        temperaturaFria = 10;
+        temperaturaMorna = 20;
+        temperaturaQuente = 30;
+        temperaturaMuitoQuente = 40;
+    }
+    else if(estacaoAno === "primavera" || estacaoAno === "outono"){
+        temperaturaGelada = 10;
+        temperaturaFria = 20;
+        temperaturaMorna = 30;
+        temperaturaQuente = 40;
+        temperaturaMuitoQuente = 50;
+    }
+
     if(temperatura > 0 && temperatura < 100){
-        if(temperatura > 0 && temperatura < 10){
+        if(temperatura < temperaturaMuitoGelada){
+            message.textContent = "Você está bebendo água no frigorífico?";
+            message.style.color = "white";
+            message.style.textShadow = "1px 1px 5px white";
+            return;
+        }
+        else if(temperatura < temperaturaGelada){
             message.textContent = "Água muito Fria";
             message.style.color = "blue";
             message.style.textShadow = "1px 1px 5px blue";
             return;
         }
-        if(temperatura >10 && temperatura < 20){
+        else if(temperatura < temperaturaFria){
             message.textContent = "Água Fria";
             message.style.color = "cyan";
             message.style.textShadow = "1px 1px 5px blue";
             return;
         }
-        if(temperatura > 20 && temperatura < 30){
-            message.textContent = "Água Morna";
+        else if(temperatura < temperaturaMorna){
+            message.textContent = "Água Agradável";
             message.style.color = "green";
             message.style.textShadow = "1px 1px 5px green";
             return;
         }
-        if(temperatura > 30 && temperatura < 40){
+        else if(temperatura < temperaturaQuente){
             message.textContent = "Água Quente";
             message.style.color = "yellow";
             message.style.textShadow = "1px 1px 5px orange";
             return;
         }
-        if(temperatura > 40 && temperatura < 50){
+        else if(temperatura < temperaturaMuitoQuente){
             message.textContent = "Água Muito Quente";
             message.style.color = "orange";
             message.style.textShadow = "1px 1px 5px orange";
             return;
         }
-        if(temperatura > 50 && temperatura < 100){
+        else{
             message.textContent = "Ta querendo virar lagosta?"
             message.style.color = "red";
             message.style.textShadow = "1px 1px 5px red";
             return;
         }
     }
+    
     //message.textContent = temperatura;
 });
