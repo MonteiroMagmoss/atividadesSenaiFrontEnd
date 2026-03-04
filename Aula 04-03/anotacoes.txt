@@ -1,0 +1,9 @@
+Fazer uma página usando o Canva de um site de venda de Esfiras
+
+Website
+    -Esfiras        //Artesanais
+        -On site
+        -Cardápio Digital
+        -Delivery
+            -Auto
+            -Ifood
