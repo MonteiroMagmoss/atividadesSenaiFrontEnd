@@ -1,0 +1,23 @@
+Painel de Operação 
+o Torno CNC
+
+Titúlo: COntrole de Equipamento
+Botão Ligar Desligar
+Desafio Luz Indicadora On/Off
+
+
+
+
+referencias
+
+https://react.dev/
+
+https://vite.dev/
+
+https://nodejs.org/pt-br
+
+https://angular.dev/
+
+https://getbootstrap.com/
+
+https://vuejs.org/
