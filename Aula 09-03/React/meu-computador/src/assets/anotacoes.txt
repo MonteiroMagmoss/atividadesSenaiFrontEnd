@@ -1,14 +1,15 @@
 Painel de Operação 
-o Torno CNC
+do Torno CNC
 
-Titúlo: COntrole de Equipamento
-Botão Ligar Desligar
-Desafio Luz Indicadora On/Off
-
-
+Título: Controle de Equipamento
+Botão de Ligar e Desligar
+Desafio Luz Indicadora: On/Off
 
 
-referencias
+Lembrar de arrumar as anotações!
+
+
+Referencias:
 
 https://react.dev/
 
