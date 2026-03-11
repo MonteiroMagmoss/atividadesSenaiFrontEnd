@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.painel{
+  background-color: bisque;
+  color: #333;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(#000000, black, black, alpha);
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.input{
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 2px solid;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+.resultado{
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.cinza{color: #333; background-color: gray;}
+.verde{color: #00ff00; background-color: green; border: 1px solid #c36;}
+.vermelho{color: red; background-color: #990000; border: 1px solid #f5c6;}
