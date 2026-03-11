@@ -9,6 +9,15 @@ Desafio Luz Indicadora: On/Off
 Lembrar de arrumar as anotações!
 
 
+comandos:
+
+npm create vite@latest -- --template react
+
+npm run dev
+
+Ctrl C++
+
+
 Referencias:
 
 https://react.dev/
