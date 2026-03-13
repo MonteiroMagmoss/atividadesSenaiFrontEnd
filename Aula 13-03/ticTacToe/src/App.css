@@ -1,0 +1,51 @@
+body{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: row-reverse;
+}
+button{
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.game{
+  display: flex;
+  justify-content: center;
+}
+.game-info{
+  width: max-content;
+  margin-left: 50px;
+}
+.square-class{
+  margin: 20px;
+  padding: 20px;
+  background-color: #ff2600;
+}
+.square{
+  background-color: #ccc;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+}
+.status{
+  font-size: 50px;
+  margin-top: 20px;
+  color: black;
+}
+.tic-tac-body{
+  margin-top: 20px;
+  background-color: #00000049;
+  border-radius: 20px;
+}
+.game-board{
+  margin-top: 50px;
+}
+.movesButton{
+  border-radius: 100px;
+}
